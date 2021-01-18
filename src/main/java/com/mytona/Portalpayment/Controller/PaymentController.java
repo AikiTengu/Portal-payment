@@ -1,8 +1,7 @@
 package com.mytona.Portalpayment.Controller;
 
 import com.mytona.Portalpayment.Model.Entity.Payment;
-import com.mytona.Portalpayment.Model.Repository.PaymentDAO;
-import com.netflix.discovery.converters.Auto;
+import com.mytona.Portalpayment.Model.DAO.PaymentDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

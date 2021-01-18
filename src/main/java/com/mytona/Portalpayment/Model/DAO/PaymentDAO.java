@@ -1,4 +1,4 @@
-package com.mytona.Portalpayment.Model.Repository;
+package com.mytona.Portalpayment.Model.DAO;
 
 
 import com.mytona.Portalpayment.Model.Entity.Payment;
