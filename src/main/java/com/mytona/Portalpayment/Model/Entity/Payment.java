@@ -8,6 +8,7 @@ import org.springframework.data.redis.core.RedisHash;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.Objects;
 
 @Data
 @AllArgsConstructor
@@ -20,5 +21,5 @@ public class Payment implements Serializable {
     private LocalDate date;
     private short currencyType;
     private double sum;
-
+    
 }
